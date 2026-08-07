@@ -10,9 +10,11 @@
     "kiro_connected": true
   },
   "data_sources": {
-    "catalog_api": "https://reinvent-planner.cloud/api/catalog",
+  "data_sources": {
+    "catalog_api": "https://reinvent-planner.cloud/api/aws/reinvent/2026/catalog",
     "rss_feed": "https://reinvent-planner.cloud/api/feed/rss", 
     "aws_agenda": "https://reinvent.awsevents.com/agenda/"
+  },
   },
   "database": {
     "path": "reinvent_data.db",

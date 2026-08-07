@@ -47,7 +47,7 @@ DB_PATH = Path(__file__).parent / "reinvent_data.db"
 class ReinventPlannerServer:
     def __init__(self):
         self.server = Server("reinvent-planner")
-        self.base_url = "https://reinvent-planner.cloud/api"
+        self.base_url = "https://reinvent-planner.cloud/api/aws/reinvent/2026"
         self.rss_url = "https://reinvent-planner.cloud/api/feed/rss"
         self.agenda_url = "https://reinvent.awsevents.com/agenda/"
         self.setup_tools()
